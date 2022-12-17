@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    display: grid;
+    height: 100vh;
+    background-color: #050505;
+}
+
+.container{
+    margin: auto;
+}
+
+span{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+span:nth-child(1){
+    background-image: linear-gradient(transparent, #c501e2, #c501e2, transparent);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 100px;
+    -webkit-text-stroke: 3px #c501e2;
+    animation: span1 7s alternate infinite ease-in-out;
+}
+
+@keyframes span1 {
+    0%{background-position:0px 100px}
+    25%{background-position:0px 100px; text-shadow: 0 0 0 transparent;}
+    50%{background-position: 0px 0px; text-shadow: 0 0 100px #c501e2;}
+    75%{background-position: 0px -100px; text-shadow: 0 0 0px #c501e2;}
+}
+
+span:nth-child(2){
+    background-image: linear-gradient(transparent, #2ef8a0, #2ef8a0, transparent);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 100px;
+    -webkit-text-stroke: 3px #2ef8a0;
+    animation: span2 7s alternate infinite ease-in-out;
+}
+
+@keyframes span2 {
+    0%{background-position:0px 100px}
+    25%{background-position:0px 100px; text-shadow: 0 0 0 transparent;}
+    50%{background-position: 0px 0px; text-shadow: 0 0 100px #2ef8a0;}
+    75%{background-position: 0px -100px; text-shadow: 0 0 0px #2ef8a0;}
+}
+
+
+span:nth-child(3){
+    background-image: linear-gradient(transparent, #a7fd2a,#a7fd2a, transparent);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 100px;
+    -webkit-text-stroke: 3px #a7fd2a;
+    animation: span3 7s alternate infinite ease-in-out;
+}
+
+@keyframes span3 {
+    0%{background-position:0px 100px}
+    25%{background-position:0px 100px; text-shadow: 0 0 0 transparent;}
+    50%{background-position: 0px 0px; text-shadow: 0 0 100px #a7fd2a;}
+    75%{background-position: 0px -100px; text-shadow: 0 0 0px #a7fd2a;}
+}
+
+
+span:nth-child(4){
+    background-image: linear-gradient(transparent, #01c4e7, #01c4e7, transparent);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0px 100px;
+    -webkit-text-stroke: 3px #01c4e7;
+    animation: span4 7s alternate infinite ease-in-out;
+}
+
+@keyframes span4 {
+    0%{background-position:0px 100px}
+    25%{background-position:0px 100px; text-shadow: 0 0 0 transparent;}
+    50%{background-position: 0px 0px; text-shadow: 0 0 100px #01c4e7;}
+    75%{background-position: 0px -100px; text-shadow: 0 0 0px #01c4e7;}
+}
